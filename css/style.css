@@ -277,7 +277,6 @@ h1 {
 .recomendaciones{
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
@@ -285,9 +284,12 @@ h1 {
   padding: 1vw 0vw;
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 85%;
   flex-wrap: nowrap;
   align-items: center;
   color: blanchedalmond;
+}
+.rec img{
+  width:90%;
 }
 
