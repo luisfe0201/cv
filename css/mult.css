@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0px 0px;
+    font-family: sans-serif;
+    font-family: 'Signika Negative', sans-serif;
+    font-family: 'Heebo', sans-serif;
+
+
+
+}
+
+body {
+    background: linear-gradient(30deg, rgb(49, 45, 45), rgb(107, 106, 106), rgb(49, 45, 45), rgb(107, 106, 106), rgb(49, 45, 45));
+
+}
+
+/*       emcabesado para arriba     ------------------------------------------------- */
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    font-weight: 500;
+}
+
+nav a {
+    font-size: 2vw;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10%;
+    margin: 1%;
+    background-color: rgb(10, 116, 66);
+    border-radius: 1em;
+    box-shadow: .4vw .4vw .1vw rgb(4, 73, 41);
+
+}
+
+nav a:hover {
+    background-color: rgb(13, 187, 80);
+    box-shadow: .6vw .6vw 0vw rgb(4, 73, 41);
+}
+
+
+.menu-horizontal {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.menu-horizontal>li>a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.7vw;
+    padding: .5vw 1vw;
+}
+
+.menu-horizontal>li:hover {
+    border-radius: 5em;
+}
+
+.menu-vertical {
+    position: absolute;
+    display: none;
+    list-style: none;
+    /* background-color: rgb(60, 182, 107); */
+    border-radius: 10px;
+
+}
+
+.menu-horizontal li:hover .menu-vertical {
+    display: block;
+}
+
+.menu-vertical>li :hover {
+    background-color: rgb(13, 187, 80);
+    border-radius: 2em;
+    box-shadow: .6vw .6vw 0vw rgb(4, 73, 41);
+
+}
+
+.menu-vertical>li>a {
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: .5vw 1.5vw;
+    text-decoration: none;
+    font-size: 1.7vw;
+
+}
+
+li {
+    margin: 2vw 1vw;
+
+
+}
+
+
+
+/* ------------------encabesado------------------*/
+
+
+.box1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    font-size: 2vw;
+  }
+  
+  .z1 {
+    display: flex;
+    background: linear-gradient(80deg, rgb(60, 182, 107) 84.5%, rgb(71, 243, 137, 0)0%);
+    z-index: 2;
+    width: 76%;
+    height: 18vw;
+    padding: 1%;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    
+  }
+  .z2 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: end;
+    z-index: 1;
+    width: 0%;
+    height: 18vw;
+    padding: 1%;
+    
+  
+  }
+
+.contac {
+    width: 60%;
+}
+
+.contac h2 {
+    font-size: 1.5em;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    align-items: center;
+
+
+}
+
+.logos a {
+    font-size: 3vw;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 6%;
+    margin: 4%;
+    background-color: rgb(10, 116, 66);
+    border-radius: 1em;
+    box-shadow: .4vw .4vw .1vw rgb(4, 73, 41);
+}
+
+.logos a:hover {
+    background-color: rgb(13, 187, 80);
+    border: 1px solid rgba(4, 73, 41, .2);
+    box-shadow: .6vw .6vw 0vw rgb(4, 73, 41);
+}
+
+p {
+    padding-top: 1%;
+    font-size: 1.7vw;
+
+}
+
+h1 {
+    font-size: 2.5vw;
+    color: blanchedalmond;
+    font-weight: 500;
+}
+
+
+/*   ------ -------------------------- */
+.contenedor {
+    display: flex;
+    padding: 1%;
+    
+    flex-direction: column;
+    align-items: center;
+}
+.videos{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.vid {
+    padding: 1vw 0vw;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    flex-wrap: nowrap;
+    align-items: center;
+    color: blanchedalmond;
+}
+
+.vid video {
+    width: 95%;
+
+}
+.m1{
+    background-image: url(../multimedia/IMG-20200928-WA0001.jpg);
+}
+.m2{
+    background-image: url(../multimedia/IMG-20201007-WA0024.jpg);
+}
+.m3{
+    background-image: url(../multimedia/IMG-20201007-WA0027.jpg);
+}
+.m4{
+    background-image: url(../multimedia/1.jpeg);
+}
+.m5{
+    background-image: url(../multimedia/IMG-20210127-WA0007.jpg);
+}
+.m6{
+    background-image: url(../multimedia/20210701_143125.jpg);
+}
+.m7{
+    background-image: url(../multimedia/20210701_153203.jpg);
+}
+.m8{
+    background-image: url(../multimedia/20210815_144842.jpg);
+}
+.m9{
+    background-image: url(../multimedia/6.jpeg);
+}
+.m10{
+    background-image: url(../multimedia/3.jpeg);
+}
+.m11{
+    background-image: url(../multimedia/4.jpeg);
+}
+.m12{
+    background-image: url(../multimedia/5.jpeg);
+}
+.m13{
+    background-image: url(../multimedia/ebee.jpeg);
+}
+.m14{
+    background-image: url(../multimedia/2.jpeg);
+}
+.m15{
+    background-image: url(../multimedia/8.jpeg);
+}
+.m16{
+    background-image: url(../multimedia/9.jpeg);
+}
+
+
+.img{
+    display: flex;
+    height: 27vw;
+    width: 75%;
+    gap: 1vw;
+}
+.img div{
+    flex: 1;
+    border-radius: 1vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all .8s cubic-bezier(0.25, 0.4, 0.45, 1.4);
+}
+.img div:hover{
+flex:7;
+}
