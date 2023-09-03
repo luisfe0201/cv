@@ -114,9 +114,9 @@ li {
   height: 18vw;
   padding: 1%;
   color: rgb(255, 255, 255);
-  font-weight: 300;
-  
+  font-weight: 500;
 }
+
 .z2 {
   display: flex;
   flex-wrap: nowrap;
@@ -125,9 +125,8 @@ li {
   width: 0%;
   height: 18vw;
   padding: 1%;
-  
-
 }
+
 .contac{
   width: 60%;
 }
@@ -286,7 +285,7 @@ h1 {
   padding: 1vw 0vw;
   display: flex;
   flex-direction: column;
-  width: 90%;
+  width: 85%;
   flex-wrap: nowrap;
   align-items: center;
   
@@ -295,3 +294,9 @@ h1 {
   width:90%;
 }
 
+@media (max-width: 350px) {
+  .exp p{
+    font-size: 3vw;
+  }
+
+}
