@@ -7,7 +7,8 @@ font-family: 'Heebo', sans-serif;
 }
 body{
   background:linear-gradient(30deg, rgb(49, 45, 45), rgb(107, 106, 106),rgb(49,45,45), rgb(107,106,106),rgb(49,45,45));
-  }
+  text-align: justify;  
+}
 
   nav {
     display: flex;
@@ -182,7 +183,7 @@ body{
     padding: 1%;
     background:radial-gradient( rgb(255, 255, 255), rgb(230, 230, 230));
     border-radius: 1vw;
-    width:70%;
+    width:75%;
     border-left: .5vw solid rgb(10, 116, 66);
     box-shadow: .5vw .5vw 1vw rgb(0, 0, 0);
     font-size: 2vw;

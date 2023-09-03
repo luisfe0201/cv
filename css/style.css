@@ -271,11 +271,13 @@ h1 {
 .texto2{
   display: flex;
   padding: 1vw 0vw;
+  width: 100%;
   flex-direction: column;
   align-items: center;
 }
 .recomendaciones{
   display: flex;
+  width: 100%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -284,10 +286,10 @@ h1 {
   padding: 1vw 0vw;
   display: flex;
   flex-direction: column;
-  width: 85%;
+  width: 90%;
   flex-wrap: nowrap;
   align-items: center;
-  color: blanchedalmond;
+  
 }
 .rec img{
   width:90%;

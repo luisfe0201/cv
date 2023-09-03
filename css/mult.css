@@ -11,7 +11,7 @@
 
 body {
     background: linear-gradient(30deg, rgb(49, 45, 45), rgb(107, 106, 106), rgb(49, 45, 45), rgb(107, 106, 106), rgb(49, 45, 45));
-
+    text-align: justify; 
 }
 
 /*       emcabesado para arriba     ------------------------------------------------- */
