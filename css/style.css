@@ -290,7 +290,7 @@ h1 {
   width:90%;
 }
 
-@media (max-width: 350px),(max-width: 350px) {
+@media (max-width: 720px),(max-width: 350px) {
   .exp p{
     font-size: 3vw;
   }
