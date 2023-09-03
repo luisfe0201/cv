@@ -126,6 +126,7 @@ body{
   }
   .contac{
     width: 60%;
+    font-weight: 400;
   }
   .logos {
     display: flex;

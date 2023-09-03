@@ -129,6 +129,7 @@ body{
   }
   .contac{
     width: 60%;
+    font-weight: 400;
   }
   .logos {
     display: flex;
@@ -191,19 +192,19 @@ body{
     font-size: 2vw;
 }
 .tex{
-    width: 70%;
+    width: 80%;
 }
 .log{ 
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30%; 
+    width: 20%; 
     
 }
 #log{
     display: flex;
     flex-wrap: nowrap;
-    width:45%;
+    width:80%;
 }
 
 
