@@ -20,7 +20,6 @@ nav {
 }
 
 nav a {
-  font-size: 2vw;
   text-decoration: none;
   color: rgb(255, 255, 255);
   padding: 10%;
@@ -64,8 +63,6 @@ nav a:hover {
   position: absolute;
   display: none;
   list-style: none;
-  /* background-color: rgb(60, 182, 107); */
-  border-radius: 10px;
 
 }
 
@@ -90,7 +87,7 @@ nav a:hover {
 }
 
 li {
-  margin: 4%;
+  margin: 2vw 1vw;
 
 
 }
