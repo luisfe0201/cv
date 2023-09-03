@@ -207,3 +207,79 @@ progress{
     width: 80%;
     height: 3vw;
 }
+
+@media (max-width: 720px),(max-width: 350px) {
+  .exp p{
+    font-size: 3vw;
+  }
+  .contac p{
+    font-size: 3vw;
+    padding-top: 0%;
+  }
+  h2{
+    font-size:4vw ;
+  }
+  h3{
+    font-size: 3.5vw;
+  }
+  h1{
+    font-size: 5vw;
+  }
+  .box1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    font-size: 2vw;
+  }
+  
+  .z1 {
+    display: flex;
+    background: linear-gradient(80deg, rgb(60, 182, 107) 84.5%, rgb(71, 243, 137, 0)0%);
+    z-index: 2;
+    width: 78%;
+    height: 32vw;
+    padding: 1%;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+  }
+  
+  .z2 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: end;
+    z-index: 1;
+    width: 10%;
+    height: 32vw;
+    padding: 1%;
+  }
+  
+  .contac{
+    width: 68%;
+  }
+  .logos {
+    display: flex;
+    flex-direction: column;
+   justify-content:center;
+    width:30%;
+   align-items:start;
+  }
+  
+  .logos a {
+    font-size: 4.5vw;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 6%;
+    margin: 4%;
+    background-color: rgb(10, 116, 66);
+    border-radius: 1em;
+    box-shadow: .4vw .4vw .1vw rgb(4,73,41);
+  }
+  .menu-vertical>li>a {
+    font-size: 3vw;
+  }
+  .menu-horizontal>li>a {
+    font-size: 3vw;
+  }
+
+
+}
