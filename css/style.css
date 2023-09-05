@@ -92,6 +92,23 @@ li {
 
 
 
+.descarga{
+ display: flex;
+  width: 90%;
+ justify-content: end;
+  align-items: center;
+  
+}
+.desen{
+  color: blanchedalmond;
+  font-weight: 400;
+  text-decoration: none;
+  align-items: center;
+}
+.desc{
+  width: 2.5vw;
+}
+
 /* ------------------encabesado------------------*/
 
 
