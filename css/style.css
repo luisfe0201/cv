@@ -90,13 +90,12 @@ li {
   margin: 2vw 1vw;
 }
 
-
-
 .descarga{
  display: flex;
   width: 90%;
  justify-content: end;
   align-items: center;
+  font-size: 1.5vw;
   
 }
 .desen{
@@ -105,8 +104,12 @@ li {
   text-decoration: none;
   align-items: center;
 }
+.desen2{
+  display: none;
+}
+
 .desc{
-  width: 2.5vw;
+  width: 3vw;
 }
 
 /* ------------------encabesado------------------*/
@@ -179,6 +182,7 @@ h1 {
   color: blanchedalmond;
   font-weight: 400;
 }
+
 
 
 
@@ -308,6 +312,8 @@ h1 {
   width: 90%;
 }
 
+
+
 @media (max-width: 720px),
 (max-width: 350px) {
   .exp p {
@@ -389,6 +395,20 @@ h1 {
   .menu-horizontal>li>a {
     font-size: 3vw;
   }
-
+  .desen2{
+    display: flex;
+    flex-direction: column;
+    color: blanchedalmond;
+    font-weight: 400;
+    text-decoration: none;
+    align-items: center;
+    font-size: 2.5vw;
+  }
+  .desc{
+    width: 4vw;
+  }
+.desen{
+  display: none;
+}
 
 }
